@@ -1,5 +1,5 @@
-# RPC-Dataset.github.io
-RPC-Dataset's github page
+# RPC: A Large-Scale Retail Product Checkout Dataset
+
 
 [![](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 

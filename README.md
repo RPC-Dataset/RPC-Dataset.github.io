@@ -33,3 +33,28 @@ the performance on this dataset with various approaches.
 ## Paper
 
 [RPC: A Large-Scale Retail Product Checkout Dataset]()
+
+## Download
+
+# [=> Download "Retail Product Checkout Dataset" on Kaggle](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)
+(15 GB)
+
+## Dataset 
+
+| name | image_num | bbox_num | bbox_per_image | class_per_image |
+| --- | --- | --- | --- | --- |
+| train(single) | 53739 | 53739 | 1 | 1 |
+| val | 6000 | 73658 | 12.28 | 6.34 |
+| test | 24000 | 294315 | 12.26 | 6.31 |
+
+
+
+| name | image_num | bbox_num | bbox_per_image | class_per_image |
+| --- | --- | --- | --- | --- |
+| easy | 10000 | 71519 | 7.15 | 3.81 |
+| medium | 10000 | 122980 | 12.3 | 6.27 |
+| hard | 10000 | 173474 | 17.35 | 8.87 |
+
+
+
+

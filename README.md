@@ -33,6 +33,10 @@ the performance on this dataset with various approaches.
 
 [RPC: A Large-Scale Retail Product Checkout Dataset]()
 
+## Supplemental Material
+[RPC Supplemental Material: A Large-Scale Retail Product Checkout Dataset]()
+
+
 ## Download
 
 
@@ -42,6 +46,7 @@ the performance on this dataset with various approaches.
 (15 GB)
 
 ## [Leaderboard](https://github.com/RPC-Dataset/RPC-Leaderboard)
+
 
 ## Dataset 
 
@@ -59,6 +64,8 @@ the performance on this dataset with various approaches.
 | medium | 10000 | 122980 | 12.3 | 6.27 |
 | hard | 10000 | 173474 | 17.35 | 8.87 |
 
+
+## Baselines on RPC dataset
 
 
 

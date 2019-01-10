@@ -1,7 +1,6 @@
 # RPC: A Large-Scale Retail Product Checkout Dataset
 
 
-[![](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Abstract
 
@@ -36,7 +35,10 @@ the performance on this dataset with various approaches.
 
 ## Download
 
-# [=> Download "Retail Product Checkout Dataset" on Kaggle](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)
+
+[![](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+[=> Download "Retail Product Checkout Dataset" on Kaggle](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)
 (15 GB)
 
 ## [Leaderboard](https://github.com/RPC-Dataset/RPC-Leaderboard)

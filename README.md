@@ -39,6 +39,8 @@ the performance on this dataset with various approaches.
 # [=> Download "Retail Product Checkout Dataset" on Kaggle](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)
 (15 GB)
 
+## [Leaderboard](https://github.com/RPC-Dataset/RPC-Leaderboard)
+
 ## Dataset 
 
 | name | image_num | bbox_num | bbox_per_image | class_per_image |

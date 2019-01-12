@@ -35,10 +35,8 @@ Dataset info
 | medium | 10000 | 122980 | 12.3 | 6.27 |
 | hard | 10000 | 173474 | 17.35 | 8.87 |
 
-## [Leaderboard](https://github.com/RPC-Dataset/RPC-Leaderboard)
-
-
-
+## Leaderboard
+[RPC-Leaderboard](https://github.com/RPC-Dataset/RPC-Leaderboard)
 
 ## Baselines on RPC dataset
 

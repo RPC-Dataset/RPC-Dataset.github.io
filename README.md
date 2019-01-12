@@ -51,13 +51,3 @@ Each clutter level's number on test and val set
 ## 5. Leaderboard
 [RPC-Leaderboard](https://github.com/RPC-Dataset/RPC-Leaderboard)
 
-
-
-<style>
-
-img{
-    max-width:400px;
-}
-</style>
-
-

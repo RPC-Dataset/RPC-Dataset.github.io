@@ -2,7 +2,7 @@
 
 <div align="center">
 
- ### [Abstract](#1-abstract) | [Paper](#2-paper) | [Dataset](#3-Dataset) | [Baselines](#4-baselines-on-rpc-dataset) | [Leaderboard](#5-Leaderboard) 
+ ### [Abstract](#1-abstract) | [Paper](#2-paper) | [Dataset](#3-Dataset) | [Baselines](#4-baselines-on-rpc-dataset) | [Leaderboard](#5-Leaderboard) | [Rpctool](#6-Rpctool) 
 </div>
 
 ## 1. Abstract
@@ -69,5 +69,11 @@ CC BY-NC-SA 4.0
 ![](imgs/result.png)
 
 ## 5. Leaderboard
-[RPC-Leaderboard](https://github.com/RPC-Dataset/RPC-Leaderboard)
+[**RPC-Leaderboard**](https://github.com/RPC-Dataset/RPC-Leaderboard)
+
+You could submit your result to RPC-Leaderboard by new a issue [here](https://github.com/RPC-Dataset/RPC-Leaderboard/issues)
+
+## 6. Rpctool
+[**rpctool**](https://github.com/DIYer22/retail_product_checkout_tools): python package for evaluate your result on RPC-Dataset, more information in [rpctool](https://github.com/DIYer22/retail_product_checkout_tools)
+
 

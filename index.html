@@ -2,7 +2,6 @@
    <head></head>
    <body>
       <link rel="stylesheet" type="text/css" href="./github.css" id="_theme">
-      
       <div id="_html" class="markdown-body">
          <h1 id="rpc-a-large-scale-retail-product-checkout-dataset"><a class="anchor" name="rpc-a-large-scale-retail-product-checkout-dataset" href="#rpc-a-large-scale-retail-product-checkout-dataset"><span class="octicon octicon-link"></span></a>RPC: A Large-Scale Retail Product Checkout Dataset</h1>
          <div align="center">
@@ -11,14 +10,21 @@
          <h2 id="1-abstract"><a class="anchor" name="1-abstract" href="#1-abstract"><span class="octicon octicon-link"></span></a>1. Abstract</h2>
          <p>Over recent years, emerging interest has occurred in integrating computer vision technology into the retail industry. Automatic checkout (ACO) is one of the critical problems in this area which aims to automatically generate the shopping list from the images of the products to purchase. The main challenge of this problem comes from the large scale and the fine-grained nature of the product categories as well as the difficulty for collecting training images that reflect the realistic checkout scenarios due to continuous update of the products. Despite its significant practical and research value, this problem is not extensively studied in the computer vision community, largely due to the lack of a high-quality dataset. To fill this gap, in this work we propose a new dataset to facilitate relevant research. Our dataset enjoys the following characteristics: (1) It is by far the largest dataset in terms of both product image quantity and product categories. (2) It includes single-product images taken in a controlled environment and multi-product images taken by the checkout system. (3) It provides different levels of annotations for the checkout images. Comparing with the existing datasets, ours is closer to the realistic setting and can derive a variety of research problems. Besides the dataset, we also benchmark the performance on this dataset with various approaches.</p>
          <h2 id="2-paper"><a class="anchor" name="2-paper" href="#2-paper"><span class="octicon octicon-link"></span></a>2. Paper</h2>
-         <p><a href="">RPC: A Large-Scale Retail Product Checkout Dataset</a></p>
-         <p><a href="">Supplemental Material</a></p>
+         <div align="center">
+            <a href="">
+            <img style="width:700px" src="imgs/paper.png">
+            </a>   
+            <p><a href="">Paper on arXiv =&gt; "RPC: A Large-Scale Retail Product Checkout Dataset"</a></p>
+         </div>
          <h2 id="3-dataset"><a class="anchor" name="3-dataset" href="#3-dataset"><span class="octicon octicon-link"></span></a>3. Dataset</h2>
-         <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt=""></a></p>
-         <p><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset">=&gt; Download "Retail Product Checkout Dataset" on Kaggle</a>
-            (15 GB)
-         </p>
-         <h4 id="rpc-dataset-infomation"><a class="anchor" name="rpc-dataset-infomation" href="#rpc-dataset-infomation"><span class="octicon octicon-link"></span></a>RPC-Dataset infomation</h4>
+         <div align="center">
+            <p><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset"><img src="imgs/rpc-dataset.png" alt=""></a><br><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset">Dataset on Kaggle =&gt; "Retail Product Checkout Dataset"</a>
+               (15 GB)
+            </p>
+         </div>
+         <h4 id="3-1-dataset-license-"><a class="anchor" name="3-1-dataset-license-" href="#3-1-dataset-license-"><span class="octicon octicon-link"></span></a>3.1 Dataset License:</h4>
+         <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt=""></a><br>CC BY-NC-SA 4.0</p>
+         <h4 id="3-2-dataset-infomation"><a class="anchor" name="3-2-dataset-infomation" href="#3-2-dataset-infomation"><span class="octicon octicon-link"></span></a>3.2 Dataset infomation</h4>
          <table>
             <thead>
                <tr>
@@ -53,11 +59,11 @@
                </tr>
             </tbody>
          </table>
-         <h4 id="collection-equipment-for-single-product-images-train-set-"><a class="anchor" name="collection-equipment-for-single-product-images-train-set-" href="#collection-equipment-for-single-product-images-train-set-"><span class="octicon octicon-link"></span></a>Collection equipment for single product images (train set)</h4>
+         <h4 id="3-3-collection-equipment-for-single-product-images-train-set-"><a class="anchor" name="3-3-collection-equipment-for-single-product-images-train-set-" href="#3-3-collection-equipment-for-single-product-images-train-set-"><span class="octicon octicon-link"></span></a>3.3 Collection equipment for single product images (train set)</h4>
          <p><img src="imgs/single.png" alt=""></p>
-         <h4 id="different-clutter-levels-test-val-set-"><a class="anchor" name="different-clutter-levels-test-val-set-" href="#different-clutter-levels-test-val-set-"><span class="octicon octicon-link"></span></a>Different clutter levels (test/val set)</h4>
+         <h4 id="3-4-different-clutter-levels-for-checkout-images-test-val-set-"><a class="anchor" name="3-4-different-clutter-levels-for-checkout-images-test-val-set-" href="#3-4-different-clutter-levels-for-checkout-images-test-val-set-"><span class="octicon octicon-link"></span></a>3.4 Different clutter levels for checkout images  (test/val set)</h4>
          <p><img src="imgs/test.png" alt=""></p>
-         <p>Each clutter level's number on test and val set</p>
+         <h4 id="3-5-each-clutter-level-s-number-on-test-and-val-set"><a class="anchor" name="3-5-each-clutter-level-s-number-on-test-and-val-set" href="#3-5-each-clutter-level-s-number-on-test-and-val-set"><span class="octicon octicon-link"></span></a>3.5 Each clutter level's number on test and val set</h4>
          <table>
             <thead>
                <tr>
@@ -93,7 +99,10 @@
             </tbody>
          </table>
          <h2 id="4-baselines-on-rpc-dataset"><a class="anchor" name="4-baselines-on-rpc-dataset" href="#4-baselines-on-rpc-dataset"><span class="octicon octicon-link"></span></a>4. Baselines on RPC dataset</h2>
+         <h4 id="4-1-pipeline-of-syn-render-method"><a class="anchor" name="4-1-pipeline-of-syn-render-method" href="#4-1-pipeline-of-syn-render-method"><span class="octicon octicon-link"></span></a>4.1 Pipeline of Syn+Render Method</h4>
          <p><img src="imgs/pipeline.png" alt=""></p>
+         <h4 id="4-2-experimental-results"><a class="anchor" name="4-2-experimental-results" href="#4-2-experimental-results"><span class="octicon octicon-link"></span></a>4.2 Experimental Results</h4>
+         <p><img src="imgs/result.png" alt=""></p>
          <h2 id="5-leaderboard"><a class="anchor" name="5-leaderboard" href="#5-leaderboard"><span class="octicon octicon-link"></span></a>5. Leaderboard</h2>
          <p><a href="https://github.com/RPC-Dataset/RPC-Leaderboard">RPC-Leaderboard</a></p>
       </div>

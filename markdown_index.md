@@ -21,11 +21,11 @@
 <div align="center">
 
 <a href="">
-    <img style="width:150px" src="imgs/paper_small.jpg">
+    <img style="width:200px" src="imgs/paper_small.jpg">
 </a>   
 
 
-[Paper on arXiv => "RPC: A Large-Scale Retail Product Checkout Dataset"]()
+[**Paper on arXiv => "RPC: A Large-Scale Retail Product Checkout Dataset"**]()
 </div>
 
 ## 3. Our RPC dataset 
@@ -33,7 +33,7 @@
 <div align="center">
 
 [![](imgs/rpc-dataset.png)](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)     
-[Dataset on Kaggle => "The Retail Product Checkout dataset"](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)
+[**Dataset on Kaggle => "The Retail Product Checkout dataset"**](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)
 (15 GB)
 
 </div>
@@ -68,7 +68,8 @@ CC BY-NC-SA 4.0
 
 <div align="center">
 
-![](imgs/test.png)
+<img style="width:500px" src="imgs/test.png">
+
 </div>
 
 #### 3.5 Detailed information of val+test sets for different clutters
@@ -83,27 +84,33 @@ CC BY-NC-SA 4.0
 ## 4. Proposed baseline method on the RPC dataset
 
 #### 4.1 Pipeline of our *Syn+Render* method
-![](imgs/pipeline.png)
+
+<div align="center">
+    <img style="width:700px" src="imgs/pipeline.png">
+
+</div>
 
 #### 4.2 Experimental results
-![](imgs/result.png)
+
+
+<div align="center">
+    <img style="width:700px" src="imgs/result.png">
+
+</div>
 
 ## 5. Leaderboard
 [**RPC-Leaderboard**](https://github.com/RPC-Dataset/RPC-Leaderboard)
 
-If you have been successful in creating a model based on the training set and it performs well on the validation set, we encourage you to run your model on the test set. The *rpc-tool* (in the next section in this project page) will contribute to return the corresponding results of the evaluation metrics. You can submit your results on the RPC leaderboard by creating a new issue. Your results will be ranked in the leaderboard and to benchmark your approach against that of other machine learners. We are looking forward to your submission. Please click [here](https://github.com/RPC-Dataset/RPC-Leaderboard/issues)
+If you have been successful in creating a model based on the training set and it performs well on the validation set, we encourage you to run your model on the test set. The *rpc-tool* (in the next section in this project page) will contribute to return the corresponding results of the evaluation metrics. You can submit your results on the RPC leaderboard by creating a new issue. Your results will be ranked in the leaderboard and to benchmark your approach against that of other machine learners. We are looking forward to your submission. Please click [here](https://github.com/RPC-Dataset/RPC-Leaderboard/issues) to submit.
 
 ## 6. RPC-tool
 ["**rpctool**"](https://github.com/DIYer22/retail_product_checkout_tools): A Python package for evaluating your methods on the RPC dataset. It can return several evaluation metrics (listed in the aforementioned table in Sec. 4.2). More information can be found in [rpctool](https://github.com/DIYer22/retail_product_checkout_tools).
 
-</br>
-</br>
-</br>
-</br>
 
-<div align="center">
-<small>
 
-   \* Xiu-Shen Wei is the corresponding author ([weixs.gm@gmail.com](mailto:weixs.gm@gmail.com)).
-</small>
-</div>
+## 7. ATTN
+
+This dataset and code packages are free for academic usage. You can run them at your own risk. For other purposes, please contact the corresponding author Dr. Xiu-Shen Wei (weixs.gm [at] gmail.com).
+
+
+

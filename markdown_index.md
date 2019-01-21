@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**[Xiu-Shen Wei<sup>1*</sup>](http://lamda.nju.edu.cn/weixs) &nbsp;&nbsp;&nbsp; [Quan Cui<sup>12</sup>](mailto:cui-quan@toki.waseda.jp)&nbsp;&nbsp;&nbsp; [Lei Yang<sup>1</sup>](https://github.com/DIYer22)&nbsp;&nbsp;&nbsp; Peng Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Lingqiao Liu<sup>3</sup>**
+**[Xiu-Shen Wei<sup>1*</sup>](http://lamda.nju.edu.cn/weixs) &nbsp;&nbsp;&nbsp; Quan Cui<sup>1,2</sup> &nbsp;&nbsp;&nbsp; [Lei Yang<sup>1</sup>](https://github.com/DIYer22)&nbsp;&nbsp;&nbsp; Peng Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Lingqiao Liu<sup>3</sup>**
 
 <sup>1</sup>Megvii Research Nanjing, Megvii Technology Ltd., Nanjing, China    
 <sup>2</sup>Graduate School of Information, Waseda University, Tokyo, Japan    

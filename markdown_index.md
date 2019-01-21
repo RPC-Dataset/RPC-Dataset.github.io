@@ -21,7 +21,7 @@
 <div align="center">
 
 <a href="">
-    <img style="width:440px" src="imgs/paper.png">
+    <img style="width:150px" src="imgs/paper_small.jpg">
 </a>   
 
 
@@ -75,9 +75,9 @@ CC BY-NC-SA 4.0
 
 | *Clutter mode* | *# images* | *# objects* | *# objects/image* | *# categories/image* |
 | --- | ---: | ---: | ---: | ---: |
-|       easy |  10,000 |   71,496 |                    7.15 |                      3.81 |
-|     medium |  10,000 |  122,961 |                   12.30 |                      6.27 |
-|       hard |  10,000 |  173,478 |                   17.35 |                      8.87 |
+|       Easy |  10,000 |   71,496 |                    7.15 |                      3.81 |
+|     Medium |  10,000 |  122,961 |                   12.30 |                      6.27 |
+|       Hard |  10,000 |  173,478 |                   17.35 |                      8.87 |
 
 
 ## 4. Proposed baseline method on the RPC dataset

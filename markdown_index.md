@@ -1,4 +1,12 @@
 
+<head>
+    <meta charset="UTF-8">
+    <title>RPC-Dataset Project Page</title>
+    <meta name="description" content="A Large-Scale Retail Product Checkout Dataset">
+    <meta name="keywords" content="rpc dataset, rpctool, retail, product detection">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
 <div align="center">
 
 # RPC: A Large-Scale Retail Product Checkout Dataset

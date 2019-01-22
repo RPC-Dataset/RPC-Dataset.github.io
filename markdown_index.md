@@ -47,12 +47,16 @@ CC BY-NC-SA 4.0
 
 #### 3.2 Overview infomation of the RPC dataset 
 
+<div align="center">
+
 | *Split* | *# images* | *# objects* | *# objects/image* | *# categories/image* |
 | --- | ---: | ---: | ---: | ---: |
 | Training set (Exemplar images) | 53,739 | 53,739 | 1 | 1 |
 | Validation set (Checkout images) | 6,000 |   73,602 | 12.27 | 6.33 |
 | Test set (Checkout images)| 24,000 |  294,333 | 12.26 | 6.31 |
 
+
+</div>
 
 #### 3.3 Collection equipment for single product images (training set)
 
@@ -76,12 +80,16 @@ CC BY-NC-SA 4.0
 
 #### 3.5 Detailed information of val+test sets for different clutters
 
+<div align="center">
+
 | *Clutter mode* | *# images* | *# objects* | *# objects/image* | *# categories/image* |
 | --- | ---: | ---: | ---: | ---: |
 |       Easy |  10,000 |   71,496 |                    7.15 |                      3.81 |
 |     Medium |  10,000 |  122,961 |                   12.30 |                      6.27 |
 |       Hard |  10,000 |  173,478 |                   17.35 |                      8.87 |
 
+
+</div>
 
 ## 4. Proposed baseline method on the RPC dataset
 
@@ -103,16 +111,14 @@ CC BY-NC-SA 4.0
 ## 5. Leaderboard
 [**RPC-Leaderboard**](https://github.com/RPC-Dataset/RPC-Leaderboard)
 
-If you have been successful in creating a model based on the training set and it performs well on the validation set, we encourage you to run your model on the test set. The *rpc-tool* (in the next section in this project page) will contribute to return the corresponding results of the evaluation metrics. You can submit your results on the RPC leaderboard by creating a new issue. Your results will be ranked in the leaderboard and to benchmark your approach against that of other machine learners. We are looking forward to your submission. Please click [here](https://github.com/RPC-Dataset/RPC-Leaderboard/issues) to submit.
+If you have been successful in creating a model based on the training set and it performs well on the validation set, we encourage you to run your model on the test set. The  [`rpctool`](https://github.com/DIYer22/retail_product_checkout_tools) (in the next section in this project page) will contribute to return the corresponding results of the evaluation metrics. You can submit your results on the RPC leaderboard by creating a new issue. Your results will be ranked in the leaderboard and to benchmark your approach against that of other machine learners. We are looking forward to your submission. Please click [here](https://github.com/RPC-Dataset/RPC-Leaderboard/issues) to submit.
 
 ## 6. RPC-tool
-["**rpctool**"](https://github.com/DIYer22/retail_product_checkout_tools): A Python package for evaluating your methods on the RPC dataset. It can return several evaluation metrics (listed in the aforementioned table in Sec. 4.2). More information can be found in [rpctool](https://github.com/DIYer22/retail_product_checkout_tools).
+[`rpctool`](https://github.com/DIYer22/retail_product_checkout_tools): A Python package for evaluating your methods on the RPC dataset. It can return several evaluation metrics (listed in the aforementioned table in Sec. 4.2). More information can be found in [`rpctool`](https://github.com/DIYer22/retail_product_checkout_tools).
 
 
 
 ## 7. ATTN
 
 This dataset and code packages are free for academic usage. You can run them at your own risk. For other purposes, please contact the corresponding author Dr. Xiu-Shen Wei (weixs.gm [at] gmail.com).
-
-
 

@@ -1,6 +1,7 @@
-# RPC: A Large-Scale Retail Product Checkout Dataset
 
 <div align="center">
+
+# RPC: A Large-Scale Retail Product Checkout Dataset
 
 **[Xiu-Shen Wei<sup>1*</sup>](http://lamda.nju.edu.cn/weixs) &nbsp;&nbsp;&nbsp; Quan Cui<sup>1,2</sup> &nbsp;&nbsp;&nbsp; [Lei Yang<sup>1</sup>](https://github.com/DIYer22)&nbsp;&nbsp;&nbsp; Peng Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Lingqiao Liu<sup>3</sup>**
 

@@ -40,6 +40,8 @@
 
 ## 3. Our RPC dataset 
 
+**Notice**: We are working on the maintenance of the kaggle dataset project. Our dataset can be downloaded in the following **two days** . Thank you for your continued attention.
+
 <div align="center">
 
 [![](imgs/rpc-dataset.png)](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)     

@@ -30,12 +30,12 @@
 
 <div align="center">
 
-<a href="">
+<a href="https://arxiv.org/abs/1901.07249">
     <img style="width:200px" src="imgs/paper_small.jpg">
 </a>   
 
 
-[**Paper on arXiv => "RPC: A Large-Scale Retail Product Checkout Dataset"**]()
+[**Paper on arXiv => "RPC: A Large-Scale Retail Product Checkout Dataset"**](https://arxiv.org/abs/1901.07249)
 </div>
 
 ## 3. Our RPC dataset 

@@ -42,9 +42,9 @@
 
 <div align="center">
 
-[![](imgs/rpc-dataset.png)](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)     
+[![](imgs/rpc-dataset.png)](https://www.kaggle.com/diyer22/retail-product-checkout-dataset/home)     
 
-[**Dataset on Kaggle => "The Retail Product Checkout dataset"**](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)
+[**Dataset on Kaggle => "The Retail Product Checkout dataset"**](https://www.kaggle.com/diyer22/retail-product-checkout-dataset/home)
 (15 GB)
 
 </div>
@@ -73,7 +73,7 @@ CC BY-NC-SA 4.0
 
 <div align="center">
 
-<a href="">
+<a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset#retail_product_checkout.zip">
     <img style="width:700px" src="imgs/single.png">
 </a>   
 </div> 
@@ -83,8 +83,9 @@ CC BY-NC-SA 4.0
 
 <div align="center">
 
-<img style="width:500px" src="imgs/test.png">
-
+<a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset#retail_product_checkout.zip">
+    <img style="width:500px" src="imgs/test.png">
+</a>   
 </div>
 
 #### 3.5 Detailed information of val+test sets for different clutters

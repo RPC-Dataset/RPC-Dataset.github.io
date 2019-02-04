@@ -49,7 +49,7 @@
 
 </div>
 
-\***Notice**: If download from Kaggle are not accessable, please download the dataset using [Baidu Drive](https://pan.baidu.com/s/1vrrLaSpJe5JxT3zhYfOaog).
+\***Notice**: If downloading from Kaggle is not accessable, you can alternatively download the dataset using [Baidu Drive](https://pan.baidu.com/s/1vrrLaSpJe5JxT3zhYfOaog).
 
 #### 3.1 Dataset license:  
 [![](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)    

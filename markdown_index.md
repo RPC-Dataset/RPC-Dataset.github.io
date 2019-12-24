@@ -42,9 +42,9 @@
 
 <div align="center">
 
-[![](imgs/rpc-dataset.png)](https://www.kaggle.com/diyer22/retail-product-checkout-dataset/home)     
+[![](imgs/rpc-dataset.png)](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)     
 
-[**Dataset on Kaggle => "The Retail Product Checkout dataset"**](https://www.kaggle.com/diyer22/retail-product-checkout-dataset/home)
+[**Dataset on Kaggle => "The Retail Product Checkout dataset"**](https://www.kaggle.com/diyer22/retail-product-checkout-dataset)
 (15 GB)
 
 </div>

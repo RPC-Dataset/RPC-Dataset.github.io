@@ -13,7 +13,7 @@
             <p><strong><a href="http://www.weixiushen.com/">Xiu-Shen Wei<sup>1*</sup></a> &nbsp;&nbsp;&nbsp; Quan Cui<sup>1,2</sup> &nbsp;&nbsp;&nbsp; <a href="https://github.com/DIYer22">Lei Yang<sup>1</sup></a>&nbsp;&nbsp;&nbsp; Peng Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Lingqiao Liu<sup>3</sup></strong></p>
             <p><sup>1</sup>Megvii Research Nanjing, Megvii Technology Ltd., Nanjing, China<br><sup>2</sup>Graduate School of IPS, Waseda University, Fukuoka, Japan<br><sup>3</sup>School of Computer Science, The University of Adelaide, Adelaide, Australia</p>
             <hr>
-            <h3 id="abstract-paper-dataset-baselines-leaderboard-rpc-tool"><a href="#1-abstract">Abstract</a> | <a href="#2-paper">Paper</a> | <a href="#3-our-rpc-dataset">Dataset</a> | <a href="#4-proposed-baseline-method-on-the-rpc-dataset">Baselines</a> | <a href="#5-Leaderboard">Leaderboard</a> | <a href="#6-rpc-tool">RPC-tool</a></h3>
+            <h3 id="abstract--paper--dataset--baselines--leaderboard--rpc-tool"><a href="#1-abstract">Abstract</a> | <a href="#2-paper">Paper</a> | <a href="#3-our-rpc-dataset">Dataset</a> | <a href="#4-proposed-baseline-method-on-the-rpc-dataset">Baselines</a> | <a href="#5-Leaderboard">Leaderboard</a> | <a href="#6-rpc-tool">RPC-tool</a></h3>
          </div>
          <h2 id="1-abstract"><a class="anchor" name="1-abstract" href="#1-abstract"><span class="octicon octicon-link"></span></a>1. Abstract</h2>
          <p style="text-align: justify"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over recent years, emerging interest has occurred in integrating computer vision technology into the retail industry. Automatic checkout (ACO) is one of the critical problems in this area which aims to automatically generate the shopping list from the images of the products to purchase. The main challenge of this problem comes from the large scale and the fine-grained nature of the product categories as well as the difficulty for collecting training images that reflect the realistic checkout scenarios due to continuous update of the products. Despite its significant practical and research value, this problem is not extensively studied in the computer vision community, largely due to the lack of a high-quality dataset. To fill this gap, in this work we propose a new dataset to facilitate relevant research. Our dataset enjoys the following characteristics: (1) It is by far the largest dataset in terms of both product image quantity and product categories. (2) It includes single-product images taken in a controlled environment and multi-product images taken by the checkout system. (3) It provides different levels of annotations for the checkout images. Comparing with the existing datasets, ours is closer to the realistic setting and can derive a variety of research problems. Besides the dataset, we also benchmark the performance on this dataset with various approaches.</em></p>
@@ -26,15 +26,15 @@
          </div>
          <h2 id="3-our-rpc-dataset"><a class="anchor" name="3-our-rpc-dataset" href="#3-our-rpc-dataset"><span class="octicon octicon-link"></span></a>3. Our RPC dataset</h2>
          <div align="center">
-            <p><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset/home"><img src="imgs/rpc-dataset.png" alt=""></a>     </p>
-            <p><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset/home"><strong>Dataset on Kaggle =&gt; "The Retail Product Checkout dataset"</strong></a>
+            <p><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset"><img src="imgs/rpc-dataset.png" alt=""></a>     </p>
+            <p><a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset"><strong>Dataset on Kaggle =&gt; "The Retail Product Checkout dataset"</strong></a>
                (15 GB)
             </p>
          </div>
          <p>*<strong>Notice</strong>: If downloading from Kaggle is not accessable, you can alternatively download the dataset using <a href="https://pan.baidu.com/s/1vrrLaSpJe5JxT3zhYfOaog">Baidu Drive</a>.</p>
-         <h4 id="3-1-dataset-license-"><a class="anchor" name="3-1-dataset-license-" href="#3-1-dataset-license-"><span class="octicon octicon-link"></span></a>3.1 Dataset license:</h4>
+         <h4 id="31-dataset-license"><a class="anchor" name="31-dataset-license" href="#31-dataset-license"><span class="octicon octicon-link"></span></a>3.1 Dataset license:</h4>
          <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt=""></a><br>CC BY-NC-SA 4.0</p>
-         <h4 id="3-2-overview-infomation-of-the-rpc-dataset"><a class="anchor" name="3-2-overview-infomation-of-the-rpc-dataset" href="#3-2-overview-infomation-of-the-rpc-dataset"><span class="octicon octicon-link"></span></a>3.2 Overview infomation of the RPC dataset</h4>
+         <h4 id="32-overview-infomation-of-the-rpc-dataset"><a class="anchor" name="32-overview-infomation-of-the-rpc-dataset" href="#32-overview-infomation-of-the-rpc-dataset"><span class="octicon octicon-link"></span></a>3.2 Overview infomation of the RPC dataset</h4>
          <div align="center">
             <table>
                <thead>
@@ -71,19 +71,19 @@
                </tbody>
             </table>
          </div>
-         <h4 id="3-3-collection-equipment-for-single-product-images-training-set-"><a class="anchor" name="3-3-collection-equipment-for-single-product-images-training-set-" href="#3-3-collection-equipment-for-single-product-images-training-set-"><span class="octicon octicon-link"></span></a>3.3 Collection equipment for single product images (training set)</h4>
+         <h4 id="33-collection-equipment-for-single-product-images-training-set"><a class="anchor" name="33-collection-equipment-for-single-product-images-training-set" href="#33-collection-equipment-for-single-product-images-training-set"><span class="octicon octicon-link"></span></a>3.3 Collection equipment for single product images (training set)</h4>
          <div align="center">
             <a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset#retail_product_checkout.zip">
             <img style="width:700px" src="imgs/single.png">
             </a>   
          </div>
-         <h4 id="3-4-different-clutter-levels-for-checkout-images-val-test-sets-"><a class="anchor" name="3-4-different-clutter-levels-for-checkout-images-val-test-sets-" href="#3-4-different-clutter-levels-for-checkout-images-val-test-sets-"><span class="octicon octicon-link"></span></a>3.4 Different clutter levels for checkout images (val/test sets)</h4>
+         <h4 id="34-different-clutter-levels-for-checkout-images-valtest-sets"><a class="anchor" name="34-different-clutter-levels-for-checkout-images-valtest-sets" href="#34-different-clutter-levels-for-checkout-images-valtest-sets"><span class="octicon octicon-link"></span></a>3.4 Different clutter levels for checkout images (val/test sets)</h4>
          <div align="center">
             <a href="https://www.kaggle.com/diyer22/retail-product-checkout-dataset#retail_product_checkout.zip">
             <img style="width:500px" src="imgs/test.png">
             </a>   
          </div>
-         <h4 id="3-5-detailed-information-of-val-test-sets-for-different-clutters"><a class="anchor" name="3-5-detailed-information-of-val-test-sets-for-different-clutters" href="#3-5-detailed-information-of-val-test-sets-for-different-clutters"><span class="octicon octicon-link"></span></a>3.5 Detailed information of val+test sets for different clutters</h4>
+         <h4 id="35-detailed-information-of-valtest-sets-for-different-clutters"><a class="anchor" name="35-detailed-information-of-valtest-sets-for-different-clutters" href="#35-detailed-information-of-valtest-sets-for-different-clutters"><span class="octicon octicon-link"></span></a>3.5 Detailed information of val+test sets for different clutters</h4>
          <div align="center">
             <table>
                <thead>
@@ -121,11 +121,11 @@
             </table>
          </div>
          <h2 id="4-proposed-baseline-method-on-the-rpc-dataset"><a class="anchor" name="4-proposed-baseline-method-on-the-rpc-dataset" href="#4-proposed-baseline-method-on-the-rpc-dataset"><span class="octicon octicon-link"></span></a>4. Proposed baseline method on the RPC dataset</h2>
-         <h4 id="4-1-pipeline-of-our-syn-render-method"><a class="anchor" name="4-1-pipeline-of-our-syn-render-method" href="#4-1-pipeline-of-our-syn-render-method"><span class="octicon octicon-link"></span></a>4.1 Pipeline of our <em>Syn+Render</em> method</h4>
+         <h4 id="41-pipeline-of-our-synrender-method"><a class="anchor" name="41-pipeline-of-our-synrender-method" href="#41-pipeline-of-our-synrender-method"><span class="octicon octicon-link"></span></a>4.1 Pipeline of our <em>Syn+Render</em> method</h4>
          <div align="center">
             <img style="width:700px" src="imgs/pipeline.png">
          </div>
-         <h4 id="4-2-experimental-results"><a class="anchor" name="4-2-experimental-results" href="#4-2-experimental-results"><span class="octicon octicon-link"></span></a>4.2 Experimental results</h4>
+         <h4 id="42-experimental-results"><a class="anchor" name="42-experimental-results" href="#42-experimental-results"><span class="octicon octicon-link"></span></a>4.2 Experimental results</h4>
          <div align="center">
             <img style="width:700px" src="imgs/result.png">
          </div>

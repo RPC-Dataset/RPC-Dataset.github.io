@@ -9,13 +9,14 @@
 
 <div align="center">
 
-# RPC: A Large-Scale Retail Product Checkout Dataset
+# RPC: A Large-Scale and Fine-Grained Retail Product Checkout Dataset
 
-**[Xiu-Shen Wei<sup>1*</sup>](http://www.weixiushen.com/) &nbsp;&nbsp;&nbsp; Quan Cui<sup>1,2</sup> &nbsp;&nbsp;&nbsp; [Lei Yang<sup>1</sup>](https://github.com/DIYer22)&nbsp;&nbsp;&nbsp; Peng Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Lingqiao Liu<sup>3</sup>**
+**[Xiu-Shen Wei<sup>4*</sup>](http://www.weixiushen.com/) &nbsp;&nbsp;&nbsp; Quan Cui<sup>1,2</sup> &nbsp;&nbsp;&nbsp; [Lei Yang<sup>1</sup>](https://github.com/DIYer22)&nbsp;&nbsp;&nbsp; Peng Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Lingqiao Liu<sup>3</sup> &nbsp;&nbsp;&nbsp; Jian Yang<sup>4</sup>**
 
 <sup>1</sup>Megvii Research Nanjing, Megvii Technology Ltd., Nanjing, China    
 <sup>2</sup>Graduate School of IPS, Waseda University, Fukuoka, Japan    
-<sup>3</sup>School of Computer Science, The University of Adelaide, Adelaide, Australia
+<sup>3</sup>School of Computer Science, The University of Adelaide, Adelaide, Australia    
+<sup>4</sup>School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China    
 
 ---
 
@@ -30,12 +31,23 @@
 
 <div align="center">
 
+<a href="https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3513-y">
+    <img style="width:170px" src="imgs/scis.jpg">
+</a>   
+
+
+[**Paper on "SCIENCE CHINA Information Sciences"**](https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3513-y)
+</div>
+
+
+<div align="center">
+
 <a href="https://arxiv.org/abs/1901.07249">
     <img style="width:200px" src="imgs/paper_small.jpg">
 </a>   
 
 
-[**Paper on arXiv => "RPC: A Large-Scale Retail Product Checkout Dataset"**](https://arxiv.org/abs/1901.07249)
+[**Paper on arXiv**](https://arxiv.org/abs/1901.07249)
 </div>
 
 ## 3. Our RPC dataset 

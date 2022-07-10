@@ -1,6 +1,17 @@
 <html>
-   <head></head>
+   <head>
+      <style>hcfy-result.__hcfy__result__loaded__.__hcfy__result__both__{border: 1px dotted}</style>
+      <style type="text/css">.MathJax_Preview {color: #888; display: contents}
+         #MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+         #MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+         .MathJax_Error {color: #CC0000; font-style: italic}
+      </style>
+      <style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+         .MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+      </style>
+   </head>
    <body>
+      <div id="MathJax_Message" style="display: none;"></div>
       <link rel="stylesheet" type="text/css" href="./github.css" id="_theme">
       <div id="_html" class="markdown-body">
          <meta charset="UTF-8">
@@ -9,9 +20,9 @@
          <meta name="keywords" content="rpc dataset, rpctool, retail, product detection">
          <link rel="shortcut icon" href="./favicon.ico">
          <div align="center">
-            <h1 id="rpc-a-large-scale-retail-product-checkout-dataset">RPC: A Large-Scale Retail Product Checkout Dataset</h1>
-            <p><strong><a href="http://www.weixiushen.com/">Xiu-Shen Wei<sup>1*</sup></a> &nbsp;&nbsp;&nbsp; Quan Cui<sup>1,2</sup> &nbsp;&nbsp;&nbsp; <a href="https://github.com/DIYer22">Lei Yang<sup>1</sup></a>&nbsp;&nbsp;&nbsp; Peng Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Lingqiao Liu<sup>3</sup></strong></p>
-            <p><sup>1</sup>Megvii Research Nanjing, Megvii Technology Ltd., Nanjing, China<br><sup>2</sup>Graduate School of IPS, Waseda University, Fukuoka, Japan<br><sup>3</sup>School of Computer Science, The University of Adelaide, Adelaide, Australia</p>
+            <h1 id="rpc-a-large-scale-and-fine-grained-retail-product-checkout-dataset">RPC: A Large-Scale and Fine-Grained Retail Product Checkout Dataset</h1>
+            <p><strong><a href="http://www.weixiushen.com/">Xiu-Shen Wei<sup>4*</sup></a> &nbsp;&nbsp;&nbsp; Quan Cui<sup>1,2</sup> &nbsp;&nbsp;&nbsp; <a href="https://github.com/DIYer22">Lei Yang<sup>1</sup></a>&nbsp;&nbsp;&nbsp; Peng Wang<sup>3</sup> &nbsp;&nbsp;&nbsp; Lingqiao Liu<sup>3</sup> &nbsp;&nbsp;&nbsp; Jian Yang<sup>4</sup></strong></p>
+            <p><sup>1</sup>Megvii Research Nanjing, Megvii Technology Ltd., Nanjing, China<br><sup>2</sup>Graduate School of IPS, Waseda University, Fukuoka, Japan<br><sup>3</sup>School of Computer Science, The University of Adelaide, Adelaide, Australia<br><sup>4</sup>School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China    </p>
             <hr>
             <h3 id="abstract--paper--dataset--baselines--leaderboard--rpc-tool"><a href="#1-abstract">Abstract</a> | <a href="#2-paper">Paper</a> | <a href="#3-our-rpc-dataset">Dataset</a> | <a href="#4-proposed-baseline-method-on-the-rpc-dataset">Baselines</a> | <a href="#5-Leaderboard">Leaderboard</a> | <a href="#6-rpc-tool">RPC-tool</a></h3>
          </div>
@@ -19,10 +30,16 @@
          <p style="text-align: justify"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over recent years, emerging interest has occurred in integrating computer vision technology into the retail industry. Automatic checkout (ACO) is one of the critical problems in this area which aims to automatically generate the shopping list from the images of the products to purchase. The main challenge of this problem comes from the large scale and the fine-grained nature of the product categories as well as the difficulty for collecting training images that reflect the realistic checkout scenarios due to continuous update of the products. Despite its significant practical and research value, this problem is not extensively studied in the computer vision community, largely due to the lack of a high-quality dataset. To fill this gap, in this work we propose a new dataset to facilitate relevant research. Our dataset enjoys the following characteristics: (1) It is by far the largest dataset in terms of both product image quantity and product categories. (2) It includes single-product images taken in a controlled environment and multi-product images taken by the checkout system. (3) It provides different levels of annotations for the checkout images. Comparing with the existing datasets, ours is closer to the realistic setting and can derive a variety of research problems. Besides the dataset, we also benchmark the performance on this dataset with various approaches.</em></p>
          <h2 id="2-paper"><a class="anchor" name="2-paper" href="#2-paper"><span class="octicon octicon-link"></span></a>2. Paper</h2>
          <div align="center">
+            <a href="https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3513-y">
+            <img style="width:170px" src="imgs/scis.jpg">
+            </a>   
+            <p><a href="https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3513-y"><strong>Paper on "SCIENCE CHINA Information Sciences"</strong></a></p>
+         </div>
+         <div align="center">
             <a href="https://arxiv.org/abs/1901.07249">
             <img style="width:200px" src="imgs/paper_small.jpg">
             </a>   
-            <p><a href="https://arxiv.org/abs/1901.07249"><strong>Paper on arXiv =&gt; "RPC: A Large-Scale Retail Product Checkout Dataset"</strong></a></p>
+            <p><a href="https://arxiv.org/abs/1901.07249"><strong>Paper on arXiv</strong></a></p>
          </div>
          <h2 id="3-our-rpc-dataset"><a class="anchor" name="3-our-rpc-dataset" href="#3-our-rpc-dataset"><span class="octicon octicon-link"></span></a>3. Our RPC dataset</h2>
          <div align="center">
@@ -152,5 +169,60 @@
             gtag('config', 'UA-133191784-1');
          </script>
       </div>
+      <script type="text/x-mathjax-config;executed=true">
+         // TeX-AMS_HTML
+         MathJax.Hub.Config({
+           jax: [
+             'input/TeX',
+             'output/HTML-CSS',
+             'output/PreviewHTML',
+           ],
+           extensions: [
+             'tex2jax.js',
+             'AssistiveMML.js',
+             'a11y/accessibility-menu.js',
+           ],
+           TeX: {
+             extensions: [
+               'AMSmath.js',
+               'AMSsymbols.js',
+               'noErrors.js',
+               'noUndefined.js',
+             ]
+           },
+           tex2jax: {
+             inlineMath: [
+               ['$', '$'],
+               ['\\(', '\\)'],
+             ],
+             displayMath: [
+               ['$$', '$$'],
+               ['\\[', '\\]'],
+             ],
+             processEscapes: true
+           },
+           showMathMenu: false,
+           showProcessingMessages: false,
+           messageStyle: 'none',
+           skipStartupTypeset: true, // disable initial rendering
+           positionToHash: false
+         })
+         // set specific container to render, can be delayed too
+         MathJax.Hub.Queue(
+           ['Typeset', MathJax.Hub, '_html']
+         )
+      </script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js"></script><script type="text/javascript">
+         ;(() => {
+           var timeout = setInterval(() => {
+             if (!!(window.mermaid && mermaid.init)) {
+               clearInterval(timeout)
+               mermaid.init({}, 'code.language-mmd, code.language-mermaid')
+             }
+           }, 50)
+         })()
+      </script>
    </body>
+   <div style="all: initial;">
+      <div id="__hcfy__" style="all: initial;"></div>
+   </div>
 </html>
